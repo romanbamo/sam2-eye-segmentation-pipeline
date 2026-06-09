@@ -121,7 +121,7 @@ During execution, a downsampled sequence viewport helps manually train template 
 - `r`: Clears out active storage dictionaries to `RESET / RESTART` the manual task from 0.
 - `ESC`: Aborts session execution loops immediately without exporting data.
 
-###2. Multi-Mask Inference Previewer (`MaskViewer`) *IN DEVELOPMENT*
+### 2. Multi-Mask Inference Previewer (`MaskViewer`) *IN DEVELOPMENT*
 When inference propagation terminates, an optional preview screen opens:
 
 - `← / →`: Decrement or Increment manual step frames index positions.
