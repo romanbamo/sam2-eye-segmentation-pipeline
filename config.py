@@ -8,7 +8,7 @@ import os
 
 SAM2_CHECKPOINT = os.environ.get(
     "SAM2_CHECKPOINT",
-    "/home/falcon/roma/Iris_Labeled/SAM2_Labeled/Models/sam2.1_b.pt",
+    "/Path/to/weight/sam2.1_b.pt",
 )
 SAM2_MODEL_CONFIG = os.environ.get(
     "SAM2_MODEL_CONFIG",
