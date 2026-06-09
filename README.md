@@ -81,9 +81,11 @@ export SAM2_CHECKPOINT="/path/to/sam2.1_hiera_base_plus.pt"
 
 ## Usage Guide
 
+Modify `SAM2_CHECKPOINT` path in `config.py` with the correct path to `sam2.1_b.pt` file.
+
 Run the pipeline from your command terminal executing `main.py` along with the positional target parameters:
 ```bash
-python3 main.py <video_name> <object> <start_frame> <end_frame> <eye>
+python3 main.py <video_path> <object> <start_frame> <end_frame> <eye>
 ```
 
 ### Argument Definitions
